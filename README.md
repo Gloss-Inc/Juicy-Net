@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Juicy-Net
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website left by angels.
 
-## Available Scripts
+Это вебсайт являющийся смесью форума/соцсети древних лет (2007 год да древнее время уже). Уклон всего сайта идёт на
+красивую мягкую GLOSSY эстетику с плавучими, плавными анимациями и некий мирный, природный, близкий человеку
+интерактивный футуризм. Сайт не должен быть перегружен аля миллион кнопочек в одной микро панельке и в целом должен
+ощущаться приятно и глазу и рукам.
 
-In the project directory, you can run:
+# ЧТО ДОЛЖНО БЫТЬ (дополняется)
 
-### `npm start`
+1 - Заглавная страница с популярными, закрепленными модерскими темами и закреплёнными темами пользователя.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2 - Страница с правилами сайта (их нет)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3 - Зал славы для пацанов с большими рейтингами кармой
 
-### `npm test`
+4 - Страница пользователя в стиле вконтакте со стеной/лентой (см. my anime list, там похожая темачка)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5 - Разумеется страница со всеми темами на форуме. Планируется разбить темы на категории по типу: игровая, тематическая,
+по сайту, /b/ред и т.п. У каждой категории своя цветовая/стилистическая тема и свой список тредов.
 
-### `npm run build`
+6 - Страница с самим открытым тредом (по факту автозаполняющаяся). С пагинашкой либо через плавную подгрузку постов при
+скролле вниз. В тредах должны быть поститься картинки, видео и гифки.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7 - Модальные окна/Формочки для регистрации, написания треда/поста.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ЧТО НА САЙТЕ СТОИТ КАКИЕ ДЕПЕНДЕНСИ ПИСАТЬ СЮДА
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+На сайте сейчас стоит:
 
-### `npm run eject`
+1 - Redux Toolkit для стор менеджмента - https://redux-toolkit.js.org/introduction/getting-started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2 - Apollo Client для GraphQL - https://www.apollographql.com/docs/react/get-started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3 - Ёбанный Typescript, смотреть tsconfig.json и custom.d.ts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4 - React-router-dom - npm install react-router-dom --save
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5 - Сасный Sass - npm install node-sass --save-dev
 
-## Learn More
+6 - Prettier код красыва - https://prettier.io/docs/en/install.html
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# ТЗШКА ССЫЛКИ УУЭЭЭ (Докиньте сюда ещё ссылку на палитру)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://www.figma.com/file/TF4m9uY7kM3bfBSEIEqCxu/JuicyNet?type=design&node-id=1-3&mode=design - ссылка на макет Давида
 
-### Code Splitting
+https://sticky-aerosteon-635.notion.site/c4ad5f7057c54513aaf1ba7cc1a3d948 - ссылка на тзшку (шедевр)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Beautiful Place..
