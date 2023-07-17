@@ -4,7 +4,7 @@ export default function ProfilePage() {
     return (
         <div>
             <div>
-                <h1>Profile Page</h1>
+                <h1>Profile Page!</h1>
             </div>
         </div>
     );
