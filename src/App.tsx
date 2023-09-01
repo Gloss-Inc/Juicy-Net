@@ -1,8 +1,8 @@
 import './App.scss';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import React from "react";
-import ProfilePage from "./components/pages/profile-page/ProfilePage";
-import MainPage from "./components/pages/main-page/MainPage";
+import ProfilePage from "./pages/profile-page/ProfilePage";
+import MainPage from "./pages/main-page/MainPage";
 
 function App() {
     return (
