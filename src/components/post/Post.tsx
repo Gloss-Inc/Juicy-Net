@@ -1,10 +1,10 @@
-import './Footer.scss'
+import './Post.scss'
 
-export default function Footer() {
+export default function Post() {
     return (
         <div>
             <div>
-                <h1>Foot</h1>
+                <h1>Post!</h1>
             </div>
         </div>
     );
