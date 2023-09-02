@@ -1,11 +1,17 @@
 import './Footer.scss'
+import liveinternethq from '../../assets/liveinternethq.png'
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
-        <div>
-            <div>
-                <h1>Foot</h1>
+        <footer>
+            <div className="copyright">
+                Copyright © {currentYear} Gloss-Inc. All Rights Reserved.
             </div>
-        </div>
+            <div>
+                <img alt="liveinternetCounter" className="liveImg" src={liveinternethq}/>
+            </div>
+        </footer>
     );
 }

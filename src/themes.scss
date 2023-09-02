@@ -1,0 +1,27 @@
+$secondary-color: rgba(47, 47, 47, 0.9);
+$secondary-shade: rgba(0, 0, 0, 0.9);
+$primary-color: rgba(171, 171, 171, 0.9);
+$primary-shade: rgba(86, 86, 86, 0.9);
+$accent-color: #ffa13e;
+$background-color: rgb(89, 124, 213);
+
+$gradient-opacity: 0.85;
+
+
+$primary-color: rgba(99, 102, 104, $gradient-opacity);
+$primary-shade: rgba(69, 71, 71, $gradient-opacity);
+$secondary-color: rgba(52, 52, 52, $gradient-opacity);
+$secondary-shade: rgba(0, 0, 0, $gradient-opacity);
+
+$gradient: linear-gradient(
+                180deg,
+                $primary-color 0%,
+                $primary-shade 50.52%,
+                $secondary-color 53.12%,
+                $secondary-shade 100%
+);
+
+$custom-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3),
+inset 0px 2px 1px rgba(255, 255, 255, 0.3),
+inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+

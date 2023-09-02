@@ -1,0 +1,25 @@
+@import '../../themes.scss';
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(to top, darken($background-color, 15%), $background-color);
+  border-top: 2px solid rgba($background-color, 0.8);
+}
+
+.copyright {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.liveImg {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  margin-right: 30px;
+  margin-top: -25px;
+}

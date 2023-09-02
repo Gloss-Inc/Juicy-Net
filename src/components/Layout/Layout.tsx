@@ -6,11 +6,11 @@ import {Outlet} from "react-router-dom";
 export default function Layout() {
     return (
         <>
-            <Header />
-            <div>
+            <Header/>
+            <div className="contents">
                 <Outlet/>
             </div>
-            <Footer />
+            <Footer/>
         </>
     );
 }

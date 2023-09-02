@@ -1,5 +1,9 @@
+@import './themes.scss';
+
 .App {
 	text-align: center;
+	background-color: $background-color;
+	width: 100%;
 }
 
 
